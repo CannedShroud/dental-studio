@@ -1,0 +1,14 @@
+.navitem {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(221, 221, 221);
+}

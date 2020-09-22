@@ -1,0 +1,22 @@
+.header {
+  background-color: red;
+  min-height: 60px;
+}
+
+.header__left {
+  display: flex;
+}
+.header__logo {
+  object-fit:contain;
+  max-width: 60px;
+}
+.header__title {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  color: white;
+}
+.header__right {
+  display: flex;
+  margin-left: auto;
+}
