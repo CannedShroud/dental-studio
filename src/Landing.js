@@ -12,7 +12,7 @@ function Landing() {
       </div>
       <div className="landing__description">
         <p>
-          Here at Goa Dental Studio, we are determined to give you the smile you
+          Here at D'Art Dental Studio, we are determined to give you the smile you
           deserve
         </p>
       </div>

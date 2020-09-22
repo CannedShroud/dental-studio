@@ -1,4 +1,6 @@
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   padding-left: 40px;
   margin-right: 5px;
@@ -7,6 +9,9 @@
   background-color: #baf7f8;
   transition: all 0.2s ease-in-out;
   padding-bottom: 40px;
+  min-width: 400px;
+  min-height: 220px;
+  justify-content: space-evenly;
 }
 .card:hover {
   transform: scale(1.2);
@@ -26,6 +31,9 @@
 }
 
 .card__action {
+  position: relative;
+  bottom: 0px;
+  max-width: 150px;
   border-radius: 50px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
