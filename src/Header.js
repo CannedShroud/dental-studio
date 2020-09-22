@@ -1,7 +1,7 @@
+import { ContactMail, Facebook, Twitter } from "@material-ui/icons";
 import React from "react";
 import "./Header.css";
 import logo from "./logo.jpg";
-import Navitem from "./Navitem";
 import Navbar from "./Navbar";
 
 function Header() {
@@ -10,11 +10,15 @@ function Header() {
       <div className="header__left">
         <img src={logo} alt="" className="header__logo" />
         <div className="header__title">
-          <h1>The Goa Dental Studio</h1>
+          <h1>D'Art Dental Studio</h1>
         </div>
         <div className="header__right">
           <Navbar />
-          {/* icons */}
+          <div className="header__icons">
+            <Facebook />
+            <Twitter />
+            <ContactMail />
+          </div>
         </div>
       </div>
     </div>
