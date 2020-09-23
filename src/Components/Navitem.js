@@ -4,9 +4,7 @@ import "../Styles/Navitem.css";
 function Navitem({ title }) {
   return (
     <div className="navitem">
-      <h3>
-        <a href="#">{title}</a>
-      </h3>
+      <h3>{title}</h3>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Card.css";
 import { Button } from "@material-ui/core";
 
-function Card({ headline, title, description, action, buttonTitle }) {
+function Card({ headline, title, description, action, button }) {
   return (
     <div className="card">
       <div className="card__headline">
@@ -14,9 +14,7 @@ function Card({ headline, title, description, action, buttonTitle }) {
       <div className="card__description">
         <p>{description}</p>
       </div>
-      <Button variant="contained" className="card__action">
-        {buttonTitle}
-      </Button>
+      {button}
     </div>
   );
 }
