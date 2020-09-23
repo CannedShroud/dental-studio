@@ -1,7 +1,10 @@
 .body{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     height: 100%;
     align-items: center;
+}
+.body__landing{
+    margin: 4%;
 }

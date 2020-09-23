@@ -2,15 +2,18 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+  flex: 0.3;
+  flex-grow: 1;
+  min-width: 300px;
+  margin: 10px;
   border-radius: 10px;
   background-color: #baf7f8;
   transition: all 0.2s ease-in-out;
   padding-bottom: 40px;
   justify-content: space-evenly;
-  flex: 0.3;
 }
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   background-color: #d4fefd;
 }
 .card__headline {

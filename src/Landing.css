@@ -1,7 +1,6 @@
 .landing {
   display: flex;
   flex-direction: column;
-  float: left;
   backdrop-filter: blur(2px);
   background-image: linear-gradient(
     to bottom,
@@ -10,4 +9,5 @@
   );
   border-radius: 10px;
   padding: 30px;
+  margin: auto;
 }
