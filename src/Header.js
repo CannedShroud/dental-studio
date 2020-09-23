@@ -1,4 +1,5 @@
 import { ContactMail, Facebook, Twitter } from "@material-ui/icons";
+import { IconButton } from "@material-ui/core";
 import React from "react";
 import "./Header.css";
 import logo from "./logo.jpg";
@@ -15,9 +16,15 @@ function Header() {
         <div className="header__right">
           <Navbar />
           <div className="header__icons">
-            <Facebook />
-            <Twitter />
-            <ContactMail />
+            <IconButton>
+              <Facebook className="header__icon" />
+            </IconButton>
+            <IconButton>
+              <Twitter className="header__icon" />
+            </IconButton>
+            <IconButton>
+              <ContactMail className="header__icon" />
+            </IconButton>
           </div>
         </div>
       </div>

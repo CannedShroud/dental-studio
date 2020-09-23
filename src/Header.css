@@ -23,11 +23,12 @@
   margin-bottom: auto;
 }
 .header__icons {
-  color: white;
   margin: auto;
   margin-right: 20px;
 }
-.MuiSvgIcon-root{
+.header__icon{
+  color: white !important;
   margin-top: 5px;
-  padding-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
 }

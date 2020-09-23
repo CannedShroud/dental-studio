@@ -6,8 +6,12 @@ import Cards from "./Cards";
 function Body() {
   return (
     <div className="body">
-      <Landing />
-      <Cards />
+      <div className="body__landing">
+        <Landing />
+      </div>
+      <div className="body__cards">
+        <Cards />
+      </div>
     </div>
   );
 }

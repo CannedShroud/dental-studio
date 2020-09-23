@@ -8,11 +8,9 @@ function HomePage() {
   return (
     <div className="homePage">
       <Header className="header" />
-      <div className="homePage__container">
         <img src={chairImage} alt="" className="homePage__image" />
-      </div>
-      <div className="homePage__body">
-        <Body />
+      <div className="homePage__container">
+          <Body />
       </div>
     </div>
   );
