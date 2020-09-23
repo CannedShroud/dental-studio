@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cards.css";
+import "../Styles/Cards.css";
 import Card from "./Card";
 import { CalendarToday, Schedule } from "@material-ui/icons";
 

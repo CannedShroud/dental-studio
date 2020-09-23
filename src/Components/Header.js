@@ -1,8 +1,8 @@
 import { ContactMail, Facebook, Twitter } from "@material-ui/icons";
 import { IconButton } from "@material-ui/core";
 import React from "react";
-import "./Header.css";
-import logo from "./logo.jpg";
+import "../Styles/Header.css";
+import logo from "../Assets/Images/logo.jpg";
 import Navbar from "./Navbar";
 
 function Header() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navitem.css";
+import "../Styles/Navitem.css";
 
 function Navitem({ title }) {
   return (

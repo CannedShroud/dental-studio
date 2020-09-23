@@ -1,5 +1,5 @@
 import React from "react";
-import "./Body.css";
+import "../Styles/Body.css";
 import Landing from "./Landing";
 import Cards from "./Cards";
 

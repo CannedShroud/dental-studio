@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "../Styles/Card.css";
 import { Button } from "@material-ui/core";
 
 function Card({ headline, title, description, action, buttonTitle }) {
