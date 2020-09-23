@@ -13,6 +13,7 @@ function Header() {
         <div className="header__title">
           <h1>D'Art Dental Studio</h1>
         </div>
+      </div>
         <div className="header__right">
           <Navbar />
           <div className="header__icons">
@@ -27,7 +28,6 @@ function Header() {
             </IconButton>
           </div>
         </div>
-      </div>
     </div>
   );
 }
