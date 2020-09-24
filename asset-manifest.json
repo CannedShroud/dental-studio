@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dental-studio/static/css/main.7a10914d.chunk.css",
+    "main.js": "/dental-studio/static/js/main.4c889280.chunk.js",
+    "main.js.map": "/dental-studio/static/js/main.4c889280.chunk.js.map",
+    "runtime-main.js": "/dental-studio/static/js/runtime-main.f6888fa1.js",
+    "runtime-main.js.map": "/dental-studio/static/js/runtime-main.f6888fa1.js.map",
+    "static/js/2.8ec61449.chunk.js": "/dental-studio/static/js/2.8ec61449.chunk.js",
+    "static/js/2.8ec61449.chunk.js.map": "/dental-studio/static/js/2.8ec61449.chunk.js.map",
+    "index.html": "/dental-studio/index.html",
+    "precache-manifest.7a8e776cfab1c5d2a58861ed808188ff.js": "/dental-studio/precache-manifest.7a8e776cfab1c5d2a58861ed808188ff.js",
+    "service-worker.js": "/dental-studio/service-worker.js",
+    "static/css/main.7a10914d.chunk.css.map": "/dental-studio/static/css/main.7a10914d.chunk.css.map",
+    "static/js/2.8ec61449.chunk.js.LICENSE.txt": "/dental-studio/static/js/2.8ec61449.chunk.js.LICENSE.txt",
+    "static/media/dentalChair.jpg": "/dental-studio/static/media/dentalChair.e451fdfc.jpg",
+    "static/media/logo.jpg": "/dental-studio/static/media/logo.93160018.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6888fa1.js",
+    "static/js/2.8ec61449.chunk.js",
+    "static/css/main.7a10914d.chunk.css",
+    "static/js/main.4c889280.chunk.js"
+  ]
+}
